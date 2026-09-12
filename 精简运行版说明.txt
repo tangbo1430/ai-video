@@ -1,0 +1,6 @@
+AI 漫剧工作台 2.0.0-dev.9 本地精简运行版
+
+本包仅保留当前启动脚本实际使用的 Qwen3.5-4B 模型、mmproj、llama-server.exe 及其运行依赖。
+已移除未使用的第二套 Qwen 模型和 llama.cpp 中的 RPC、测试、量化、TTS、CLI 等工具。
+工作台网页、FFmpeg、案例、配置和工作流保持不变。
+请与 ComfyUI Core 解压到同一个程序目录。

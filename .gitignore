@@ -1,0 +1,39 @@
+# Local configuration and secrets
+git-data/
+config.json
+*.local.json
+.env
+.env.*
+
+# Runtime data
+assets/
+outputs/
+projects/
+logs/
+backups/
+update-logs/
+__pycache__/
+*.py[cod]
+
+# Bundled runtimes, models and large dependencies
+ComfyUI/
+llm/
+tools/
+static/
+
+# Downloaded packages and media
+*.zip
+*.7z
+*.rar
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.lnk
